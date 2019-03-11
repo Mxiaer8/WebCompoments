@@ -1,15 +1,17 @@
 # Usage
 
 ------
-##install
+## install
+
 **npm i ring-progress-bar**
 ------
-##methods
+## methods
+
 **1. setSize(size)** // set the ring's size; it is not be requested! Its' defalut size is "200px"
 
 **2. show(percent, color)** // set the ring's percent and color; The color is not be requested! Its' defalut color is "red"!
 
-##exmaple
+## exmaple
 
     <template>
         <ring></ring>
@@ -28,4 +30,4 @@
     }
     </script>
    
- ##Thank you for your support!
+ ## Thank you for your support!
