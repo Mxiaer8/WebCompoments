@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.slide{
+	position: relative;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.slide .img ul{
+	position: absolute;
+	left: 0;
+}
+.slide .img li{
+	list-style-type: none;
+	float: left;
+}
+.slide img{
+	width: 100%;
+}
+.slide #num li{
+	list-style-type: none;
+	background-color: white;
+	border: 1px solid red;
+	border-radius: 100px;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 10px;
+	cursor: pointer;
+}
+.slide #num {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 5%;
+	text-align: center;
+}
