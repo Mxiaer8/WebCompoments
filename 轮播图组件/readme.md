@@ -47,3 +47,4 @@ slidePicture.show();
 
 # Thanks for your support!
 
+# [The show!](https://htmlpreview.github.io/?https://github.com/Mxiaer8/WebCompoments/blob/master/轮播图组件/SlidePictures.html)
