@@ -74,10 +74,10 @@ class SlidePicture {
 	show() {	
         var _slide =  document.getElementsByClassName('slide_content')[0].getElementsByClassName('slide')[0];
         var image = document.getElementById('slide_img').getElementsByTagName('img');
-        _slide.style.width = this.width;
-        _slide.style.height = this.height;
+        _slide.style.width = this.width + 'px';
+        _slide.style.height = this.height + 'px';
         for(let i = 0; i < image.length; i++) {
-             image[i].style.height = this.height;
+             image[i].style.height = this.height + 'px';
         }
 		var that = this;
 		SlidePicture.prototype.startSlide = function() {
